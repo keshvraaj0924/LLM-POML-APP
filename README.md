@@ -7,25 +7,7 @@ This project provides **side-by-side comparison tools** to evaluate:
 - **Performance metrics** (processing speed, response quality)
 - **Interactive chat interface** for real-time testing
 - **CPU-optimized LLM inference** with local models
-
-## 📁 Project Structure
-
-llm-poml-app/
-├── 📁 venv/ # Python virtual environment
-├── 📁 poml_app/ # Main application
-│ ├── 🐍 main.py # CLI comparison tool
-│ ├── 🌐 streamlit_app.py # Web UI interface
-│ ├── 🚀 launcher.py # Choose CLI or UI
-│ ├── 📁 prompts/ # Template files
-│ │ ├── chat.poml # POML templates
-│ │ └── optimized_chat.poml # Optimized POML
-│ └── 📁 services/ # Core modules
-│ ├── ollama_client.py # LLM interface
-│ └── poml_runner.py # Template processor
-├── 📁 tests/ # Unit tests
-├── 📋 requirements.txt # Dependencies
-└── 📖 README.md # This file
-
+- 
 ## ✨ Key Features
 
 ### 🔄 **Dual Interface**
