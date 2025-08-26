@@ -1,0 +1,8 @@
+<poml>
+  <role name="system">
+    Summarize the following text in 3 sentences or less:
+  </role>
+  <role name="user">
+    {{ text }}
+  </role>
+</poml>

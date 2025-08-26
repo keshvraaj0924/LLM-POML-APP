@@ -1,0 +1,8 @@
+<poml>
+  <role name="system">
+    You are a helpful AI assistant.
+  </role>
+  <role name="user">
+    {{ user_input }}
+  </role>
+</poml>
